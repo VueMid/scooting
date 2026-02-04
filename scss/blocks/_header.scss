@@ -1,0 +1,297 @@
+.header {
+  &__container {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    @include df-row-between-center;
+  }
+  &__test-button {
+    opacity: 0;
+    display: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  &__test-button-icon {
+    width: 20px;
+    height: 16px;
+    display: none;
+  }
+  &__left-box {
+    @include df-row-center-center;
+    gap: 58.18px;
+  }
+  &__logo-link {
+    transition: 100ms ease all;
+    &:active {
+      transition: 100ms ease all;
+      opacity: 0.5;
+    }
+  }
+  &__logo-image {
+    width: 107.82px;
+    height: 28.56px;
+    display: block;
+  }
+  &__nav {
+    display: block;
+  }
+  &__list {
+    @include df-row-center-center;
+    gap: 32px;
+  }
+  &__lists {
+  }
+  &__links {
+  }
+  &__links-texts {
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dim__grey;
+  }
+  &__button {
+    @include template__button;
+  }
+  &__mb-buttons {
+    display: none;
+  }
+  &__open-burger {
+    display: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  &__open-burger-icon {
+    width: 20px;
+    height: 16px;
+    display: none;
+  }
+  &__close-burger {
+    display: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  &__close-burger-icon {
+    display: none;
+  }
+  &__mb-nav {
+    display: none;
+  }
+  &__mb-list {
+  }
+  &__mb-lists {
+  }
+  &__mb-links {
+  }
+  &__mb-links-texts {
+  }
+  &__mb-button {
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    &__container {
+      padding-top: 34px;
+      padding-bottom: 34px;
+      padding-left: 39px;
+      padding-right: 39px;
+      @include df-row-between-center;
+    }
+    &__test-button {
+      opacity: 0;
+      display: none;
+      border: none;
+      outline: none;
+      background: none;
+    }
+    &__test-button-icon {
+      width: 20px;
+      height: 16px;
+      display: none;
+    }
+    &__left-box {
+      @include df-row-center-center;
+      gap: 58.18px;
+    }
+    &__logo-link {
+      transition: 100ms ease all;
+      &:active {
+        transition: 100ms ease all;
+        opacity: 0.5;
+      }
+    }
+    &__logo-image {
+      width: 107.82px;
+      height: 28.56px;
+      display: block;
+    }
+    &__nav {
+      display: block;
+    }
+    &__list {
+      @include df-row-center-center;
+      gap: 32px;
+    }
+    &__lists {
+    }
+    &__links {
+    }
+    &__links-texts {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+    }
+    &__button {
+      @include template__button;
+    }
+    &__mb-buttons {
+      display: none;
+    }
+    &__open-burger {
+      display: none;
+      border: none;
+      outline: none;
+      background: none;
+    }
+    &__open-burger-icon {
+      width: 20px;
+      height: 16px;
+      display: none;
+    }
+    &__close-burger {
+      display: none;
+      border: none;
+      outline: none;
+      background: none;
+    }
+    &__close-burger-icon {
+      display: none;
+    }
+    &__mb-nav {
+      display: none;
+    }
+    &__mb-list {
+    }
+    &__mb-lists {
+    }
+    &__mb-links {
+    }
+    &__mb-links-texts {
+    }
+    &__mb-button {
+    }
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    &__container {
+      padding-top: 24px;
+      padding-bottom: 24px;
+      padding-left: 24px;
+      padding-right: 24px;
+      @include df-row-reverse-between-center;
+    }
+    &__test-button {
+      opacity: 0;
+      display: block;
+      border: none;
+      outline: none;
+      background: none;
+    }
+    &__test-button-icon {
+      width: 20px;
+      height: 16px;
+      display: block;
+    }
+    &__left-box {
+    }
+    &__logo-link {
+      transition: 100ms ease all;
+      &:active {
+        transition: 100ms ease all;
+        opacity: 0.5;
+      }
+    }
+    &__logo-image {
+      width: 75.5px;
+      height: 20px;
+      display: block;
+    }
+    &__nav {
+      display: none;
+    }
+    &__list {
+    }
+    &__lists {
+    }
+    &__links {
+    }
+    &__links-texts {
+    }
+    &__button {
+      display: none;
+    }
+    &__mb-buttons {
+      display: block;
+    }
+    &__open-burger {
+      display: block;
+      border: none;
+      outline: none;
+      background: none;
+    }
+    &__open-burger-icon {
+      width: 20px;
+      height: 16px;
+      display: block;
+    }
+    &__close-burger {
+      display: none;
+      border: none;
+      outline: none;
+      background: none;
+    }
+    &__close-burger-icon {
+      display: block;
+    }
+    &__mb-nav {
+      // @include df-column-between-start;
+      display: none;
+      position: fixed;
+      padding: 64px 32px 104px 32px;
+      z-index: 2;
+      top: 77px;
+      left: 0;
+      width: 85%;
+      height: 100vh;
+      transform: trnslateX(-100%);
+      transition: all 500ms ease;
+      background-color: #333a44;
+    }
+    &__mb-list {
+      @include df-column-start-start;
+      gap: 24px;
+    }
+    &__mb-lists {
+    }
+    &__mb-links {
+    }
+    &__mb-links-texts {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $light__grey;
+    }
+    &__mb-button {
+      @include template__button;
+    }
+  }
+}
