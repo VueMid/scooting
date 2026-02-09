@@ -1,27 +1,27 @@
 let div = document.querySelector(".header__mb-div");
-let openBurger = document.querySelector(".header__open-burger");
-let closeBurger = document.querySelector(".header__close-burger");
+let openburger = document.querySelector(".header__open-burger");
+let closeburger = document.querySelector(".header__close-burger");
 let links = document.querySelectorAll(".header__mb-links-texts");
 let button = document.querySelector(".header__mb-button");
-openBurger.addEventListener("click", () => {
-  closeBurger.style.display = "block";
-  openBurger.style.display = "none";
+openburger.addEventListener("click", () => {
   div.style.opacity = "1";
+  closeburger.style.display = "block";
+  openburger.style.display = "none";
 });
-closeBurger.addEventListener("click", () => {
-  closeBurger.style.display = "none";
-  openBurger.style.display = "block";
+closeburger.addEventListener("click", () => {
   div.style.opacity = "0";
+  closeburger.style.display = "none";
+  openburger.style.display = "block";
 });
 links.forEach((link) => {
   link.addEventListener("click", () => {
-    closeBurger.style.display = "none";
-    openBurger.style.display = "block";
     div.style.opacity = "0";
+    closeburger.style.display = "none";
+    openburger.style.display = "block";
   });
 });
 button.addEventListener("click", () => {
-  closeBurger.style.display = "none";
-  openBurger.style.display = "block";
   div.style.opacity = "0";
+  closeburger.style.display = "none";
+  openburger.style.display = "block";
 });
