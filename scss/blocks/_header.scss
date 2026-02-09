@@ -304,7 +304,7 @@
     &__mb-nav {
       transition: 500ms ease all;
       z-index: 3;
-      display: none;
+      display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
