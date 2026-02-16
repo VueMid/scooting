@@ -294,15 +294,19 @@
       display: block;
     }
     &__mb-div {
-      opacity: 0;
-      transition: 500ms ease all;
+      transition: 350ms ease all;
       z-index: -1;
       width: 100%;
       height: 100vh;
       position: fixed;
       top: 64px;
+      transform: translateX(-100%);
       backdrop-filter: blur(5px);
       background: rgba(0, 0, 0, 0.5);
+    }
+    &__mb-div.active {
+      transition: 350ms ease all;
+      transform: translateX(0px);
     }
     &__mb-nav {
       transition: 500ms ease all;

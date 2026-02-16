@@ -1,0 +1,400 @@
+.category {
+  z-index: 1;
+  position: relative;
+  padding-top: 122px;
+  &::after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 973px;
+    height: 15px;
+    top: 165px;
+    left: 0;
+    background-image: url("../../icons/category__path.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__container {
+    @include df-row-between-start;
+    gap: 0px;
+  }
+  &__boxes {
+    @include df-column-center-start;
+    gap: 40px;
+  }
+  &__images {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+  }
+  &__mini-boxes {
+    @include df-column-center-start;
+    gap: 27px;
+  }
+  &__titles {
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07px;
+    color: $dark__navy;
+    text-align: start;
+  }
+  &__texts {
+    width: 350px;
+    font-family: "Lexend Deca";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dim__grey;
+    text-align: start;
+  }
+}
+@media (max-width: 1170px) {
+  .category {
+    z-index: 1;
+    position: relative;
+    padding-top: 122px;
+    &::after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 973px;
+      height: 15px;
+      top: 165px;
+      left: 0;
+      background-image: url("../../icons/category__path.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__container {
+      @include df-row-between-start;
+      gap: 0px;
+    }
+    &__boxes {
+      @include df-column-center-start;
+      gap: 40px;
+    }
+    &__images {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+    }
+    &__mini-boxes {
+      @include df-column-center-start;
+      gap: 27px;
+    }
+    &__titles {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07px;
+      color: $dark__navy;
+      text-align: start;
+    }
+    &__texts {
+      width: 300px;
+      font-family: "Lexend Deca";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+      text-align: start;
+    }
+  }
+}
+@media (max-width: 1145px) {
+  .category {
+    z-index: 1;
+    position: relative;
+    padding-top: 122px;
+    &::after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 973px;
+      height: 15px;
+      top: 165px;
+      left: 0;
+      background-image: url("../../icons/category__path.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__container {
+      @include df-row-between-start;
+      gap: 0px;
+    }
+    &__boxes {
+      @include df-column-center-start;
+      gap: 40px;
+    }
+    &__images {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+    }
+    &__mini-boxes {
+      @include df-column-center-start;
+      gap: 27px;
+    }
+    &__titles {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07px;
+      color: $dark__navy;
+      text-align: start;
+    }
+    &__texts {
+      width: 280px;
+      font-family: "Lexend Deca";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+      text-align: start;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .category {
+    z-index: 1;
+    position: relative;
+    padding-top: 122px;
+    &::after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 512px;
+      top: 0;
+      left: 193px;
+      background-image: url("../../icons/category__tb-path.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__container {
+      padding-left: 39px;
+      padding-right: 39px;
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__boxes {
+      width: 100%;
+      @include df-row-around-start;
+      gap: 0px;
+    }
+    &__images {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+    }
+    &__mini-boxes {
+      @include df-column-center-start;
+      gap: 27px;
+    }
+    &__titles {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07px;
+      color: $dark__navy;
+      text-align: start;
+    }
+    &__texts {
+      width: 398px;
+      font-family: "Lexend Deca";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+      text-align: start;
+    }
+  }
+}
+@media (max-width: 820px) {
+  .category {
+    z-index: 1;
+    position: relative;
+    padding-top: 122px;
+    &::after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 512px;
+      top: 0;
+      left: 142px;
+      background-image: url("../../icons/category__tb-path.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__container {
+      padding-left: 39px;
+      padding-right: 39px;
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__boxes {
+      width: 100%;
+      @include df-row-around-start;
+      gap: 0px;
+    }
+    &__images {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+    }
+    &__mini-boxes {
+      @include df-column-center-start;
+      gap: 27px;
+    }
+    &__titles {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07px;
+      color: $dark__navy;
+      text-align: start;
+    }
+    &__texts {
+      width: 398px;
+      font-family: "Lexend Deca";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+      text-align: start;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .category {
+    z-index: 1;
+    position: relative;
+    padding-top: 122px;
+    &::after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 512px;
+      top: 0;
+      left: 130px;
+      background-image: url("../../icons/category__tb-path.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__container {
+      padding-left: 39px;
+      padding-right: 39px;
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__boxes {
+      width: 100%;
+      @include df-row-around-start;
+      gap: 0px;
+    }
+    &__images {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+    }
+    &__mini-boxes {
+      @include df-column-center-start;
+      gap: 27px;
+    }
+    &__titles {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07px;
+      color: $dark__navy;
+      text-align: start;
+    }
+    &__texts {
+      width: 398px;
+      font-family: "Lexend Deca";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+      text-align: start;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .category {
+    z-index: 1;
+    position: relative;
+    padding-top: 120px;
+    &::after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      display: none;
+      width: 15px;
+      height: 512px;
+      top: 0;
+      left: 130px;
+      background-image: url("../../icons/category__tb-path.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__container {
+      padding-left: 24px;
+      padding-right: 24px;
+      @include df-column-center-center;
+      gap: 48px;
+    }
+    &__boxes {
+      @include df-column-center-center;
+      gap: 24px;
+    }
+    &__images {
+      width: 56px;
+      height: 56px;
+    }
+    &__mini-boxes {
+      @include df-column-center-center;
+      gap: 24px;
+    }
+    &__titles {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: -0.89px;
+      color: $dark__navy;
+      text-align: center;
+    }
+    &__texts {
+      width: 100%;
+      font-family: "Lexend Deca";
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+      text-align: center;
+    }
+  }
+}
