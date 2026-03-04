@@ -1,6 +1,4 @@
-<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2.61133" width="19.6923" height="3.69231" transform="rotate(45 2.61133 0)"
-        fill="#FCB72B" />
-    <rect x="0.422852" y="14.1923" width="19.6923" height="3.69231"
-        transform="rotate(-45 0.422852 14.1923)" fill="#FCB72B" />
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 17 17">
+    <path fill="#fcb72b" d="m2.611 0 13.924 13.924-2.61 2.61L0 2.61z" />
+    <path fill="#fcb72b" d="M.423 14.192 14.347.268l2.61 2.61L3.034 16.803z" />
 </svg>

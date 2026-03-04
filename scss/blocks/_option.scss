@@ -7,7 +7,7 @@
   &__boxes {
     width: 100%;
     @include df-row-between-center;
-    background-color: $gray;
+    background-color: $grey;
     padding: 34px 40px 34px 40px;
     gap: 0px;
   }
@@ -47,7 +47,7 @@
     &__boxes {
       width: 689px;
       @include df-row-between-center;
-      background-color: $gray;
+      background-color: $grey;
       padding: 34px 48px 34px 48px;
       gap: 0px;
     }
@@ -88,7 +88,7 @@
     &__boxes {
       width: 100%;
       @include df-column-center-center;
-      background-color: $gray;
+      background-color: $grey;
       padding: 36px 32px 32px 32px;
       gap: 16px;
     }
